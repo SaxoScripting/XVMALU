@@ -42,8 +42,8 @@ html {
 
 .hero {
   background-image: url('../image/Noche_azul.jpg');
-  /*background: linear-gradient(rgba(59, 131, 230, 0.65), rgba(59, 131, 189, 0.65)), rgba(0, 0, 0, 0.55) url('../image/Noche_azul.jpg') no-repeat;*/
-  background: linear-gradient(rgba(241, 194, 125, 0.7), rgba(241, 194, 125, 0.7)), rgba(0, 0, 0, 0.55) url('../image/noche_castillo.jpg') no-repeat;
+  background: linear-gradient(rgba(59, 131, 230, 0.65), rgba(59, 131, 189, 0.65)), rgba(0, 0, 0, 0.55) url('../image/Noche_azul.jpg') no-repeat;
+  /*background: linear-gradient(rgba(241, 194, 125, 0.7), rgba(241, 194, 125, 0.7)), rgba(0, 0, 0, 0.55) url('../image/noche_castillo.jpg') no-repeat;*/
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -59,7 +59,7 @@ html {
   transform: rotate(-2deg);
   font-size: 5rem;
   padding-bottom: 5px;
-  color: #003366;
+  color: #F1C27D;
 }
 
 .hero .subtitle {
@@ -80,18 +80,15 @@ html {
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
 }
 .foto{
+ width: 350px;
 
-  height: 300px;
 }
 
 @media (max-width: 599px) {
   .hero .hero-foot {
     display: none;
   }
-  .foto{
-
-  height: 400px;
-}
+  
 }
 
 .hero .hero-foot .hero-foot--wrapper {
